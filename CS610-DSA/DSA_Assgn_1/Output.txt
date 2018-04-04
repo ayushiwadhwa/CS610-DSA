@@ -1,0 +1,110 @@
+run:
+---------------------------APPLYING MERGE SORT ON SORTED ARRAY OF SIZE 32---------------------------
+1) Original array of 32 elements in sorted order
+a[0] = 3 a[1] = 3 a[2] = 9 a[3] = 9 a[4] = 10 a[5] = 11 a[6] = 13 a[7] = 22 a[8] = 23 a[9] = 31 a[10] = 32 a[11] = 32 a[12] = 35 a[13] = 36 a[14] = 38 a[15] = 39 a[16] = 46 a[17] = 48 a[18] = 48 a[19] = 49 a[20] = 52 a[21] = 53 a[22] = 53 a[23] = 60 a[24] = 72 a[25] = 72 a[26] = 74 a[27] = 76 a[28] = 79 a[29] = 88 a[30] = 94 
+1) Final array of 32 elements sorted using Merge Sort
+a[0] = 3 a[1] = 3 a[2] = 9 a[3] = 9 a[4] = 10 a[5] = 11 a[6] = 13 a[7] = 22 a[8] = 23 a[9] = 31 a[10] = 32 a[11] = 32 a[12] = 35 a[13] = 36 a[14] = 38 a[15] = 39 a[16] = 46 a[17] = 48 a[18] = 48 a[19] = 49 a[20] = 52 a[21] = 53 a[22] = 53 a[23] = 60 a[24] = 72 a[25] = 72 a[26] = 74 a[27] = 76 a[28] = 79 a[29] = 88 a[30] = 94 
+Details - 
+Elapsed time was 0 miliseconds.
+No. of key comparisons = 81
+
+------------------------------------------------------END------------------------------------------------------
+
+---------------------------APPLYING HEAP SORT ON SORTED ARRAY OF SIZE 32---------------------------
+1) Original array of 32 elements in sorted order
+a[0] = 3 a[1] = 3 a[2] = 9 a[3] = 9 a[4] = 10 a[5] = 11 a[6] = 13 a[7] = 22 a[8] = 23 a[9] = 31 a[10] = 32 a[11] = 32 a[12] = 35 a[13] = 36 a[14] = 38 a[15] = 39 a[16] = 46 a[17] = 48 a[18] = 48 a[19] = 49 a[20] = 52 a[21] = 53 a[22] = 53 a[23] = 60 a[24] = 72 a[25] = 72 a[26] = 74 a[27] = 76 a[28] = 79 a[29] = 88 a[30] = 94 
+1) Final array of 32 elements sorted using Heap Sort
+a[0] = 3 a[1] = 3 a[2] = 9 a[3] = 9 a[4] = 10 a[5] = 11 a[6] = 13 a[7] = 22 a[8] = 23 a[9] = 31 a[10] = 32 a[11] = 32 a[12] = 35 a[13] = 36 a[14] = 38 a[15] = 39 a[16] = 46 a[17] = 48 a[18] = 48 a[19] = 49 a[20] = 52 a[21] = 53 a[22] = 53 a[23] = 60 a[24] = 72 a[25] = 72 a[26] = 74 a[27] = 76 a[28] = 79 a[29] = 88 a[30] = 94 
+Details - 
+Elapsed time was 0 miliseconds.
+No. of key comparisons = 222
+
+------------------------------------------------------END------------------------------------------------------
+
+---------------------------APPLYING QUICK SORT ON SORTED ARRAY OF SIZE 32---------------------------
+1) Original array of 32 elements in sorted order
+a[0] = 3 a[1] = 3 a[2] = 9 a[3] = 9 a[4] = 10 a[5] = 11 a[6] = 13 a[7] = 22 a[8] = 23 a[9] = 31 a[10] = 32 a[11] = 32 a[12] = 35 a[13] = 36 a[14] = 38 a[15] = 39 a[16] = 46 a[17] = 48 a[18] = 48 a[19] = 49 a[20] = 52 a[21] = 53 a[22] = 53 a[23] = 60 a[24] = 72 a[25] = 72 a[26] = 74 a[27] = 76 a[28] = 79 a[29] = 88 a[30] = 94 
+1) Final array of 32 elements sorted using Quick Sort
+a[0] = 3 a[1] = 3 a[2] = 9 a[3] = 9 a[4] = 10 a[5] = 11 a[6] = 13 a[7] = 22 a[8] = 23 a[9] = 31 a[10] = 32 a[11] = 32 a[12] = 35 a[13] = 36 a[14] = 38 a[15] = 39 a[16] = 46 a[17] = 48 a[18] = 48 a[19] = 49 a[20] = 52 a[21] = 53 a[22] = 53 a[23] = 60 a[24] = 72 a[25] = 72 a[26] = 74 a[27] = 76 a[28] = 79 a[29] = 88 a[30] = 94 
+Details - 
+Elapsed time was 1 miliseconds.
+No. of key comparisons = 31
+
+------------------------------------------------------END------------------------------------------------------
+
+---------------------------APPLYING MERGE SORT ON REVERSE SORTED ARRAY OF SIZE 32---------------------------
+1) Original array of 32 elements in reverse sorted order
+a[0] = 99 a[1] = 98 a[2] = 97 a[3] = 84 a[4] = 84 a[5] = 78 a[6] = 76 a[7] = 75 a[8] = 72 a[9] = 70 a[10] = 70 a[11] = 68 a[12] = 67 a[13] = 63 a[14] = 56 a[15] = 56 a[16] = 54 a[17] = 51 a[18] = 49 a[19] = 44 a[20] = 41 a[21] = 38 a[22] = 38 a[23] = 34 a[24] = 33 a[25] = 30 a[26] = 10 a[27] = 3 a[28] = 3 a[29] = 0 a[30] = 0 
+1) Final array of 32 elements sorted using Merge Sort
+a[0] = 0 a[1] = 0 a[2] = 3 a[3] = 3 a[4] = 10 a[5] = 30 a[6] = 33 a[7] = 34 a[8] = 38 a[9] = 38 a[10] = 41 a[11] = 44 a[12] = 49 a[13] = 51 a[14] = 54 a[15] = 56 a[16] = 56 a[17] = 63 a[18] = 67 a[19] = 68 a[20] = 70 a[21] = 70 a[22] = 72 a[23] = 75 a[24] = 76 a[25] = 78 a[26] = 84 a[27] = 84 a[28] = 97 a[29] = 98 a[30] = 99 
+Details - 
+Elapsed time was 0 miliseconds.
+No. of key comparisons = 75
+
+------------------------------------------------------END------------------------------------------------------
+
+---------------------------APPLYING HEAP SORT ON SORTED ARRAY OF SIZE 32---------------------------
+1) Original array of 32 elements in reverse sorted order
+a[0] = 99 a[1] = 98 a[2] = 97 a[3] = 84 a[4] = 84 a[5] = 78 a[6] = 76 a[7] = 75 a[8] = 72 a[9] = 70 a[10] = 70 a[11] = 68 a[12] = 67 a[13] = 63 a[14] = 56 a[15] = 56 a[16] = 54 a[17] = 51 a[18] = 49 a[19] = 44 a[20] = 41 a[21] = 38 a[22] = 38 a[23] = 34 a[24] = 33 a[25] = 30 a[26] = 10 a[27] = 3 a[28] = 3 a[29] = 0 a[30] = 0 
+1) Final array of 32 elements sorted using Heap Sort
+a[0] = 0 a[1] = 0 a[2] = 3 a[3] = 3 a[4] = 10 a[5] = 30 a[6] = 33 a[7] = 34 a[8] = 38 a[9] = 38 a[10] = 41 a[11] = 44 a[12] = 49 a[13] = 51 a[14] = 54 a[15] = 56 a[16] = 56 a[17] = 63 a[18] = 67 a[19] = 68 a[20] = 70 a[21] = 70 a[22] = 72 a[23] = 75 a[24] = 76 a[25] = 78 a[26] = 84 a[27] = 84 a[28] = 97 a[29] = 98 a[30] = 99 
+Details - 
+Elapsed time was 0 miliseconds.
+No. of key comparisons = 196
+
+------------------------------------------------------END------------------------------------------------------
+
+---------------------------APPLYING QUICK SORT ON REVERSE SORTED ARRAY OF SIZE 32---------------------------
+1) Original array of 32 elements in reverse sorted order
+a[0] = 0 a[1] = 0 a[2] = 3 a[3] = 3 a[4] = 10 a[5] = 30 a[6] = 33 a[7] = 34 a[8] = 38 a[9] = 38 a[10] = 41 a[11] = 44 a[12] = 49 a[13] = 51 a[14] = 54 a[15] = 56 a[16] = 56 a[17] = 63 a[18] = 67 a[19] = 68 a[20] = 70 a[21] = 70 a[22] = 72 a[23] = 75 a[24] = 76 a[25] = 78 a[26] = 84 a[27] = 84 a[28] = 97 a[29] = 98 a[30] = 99 
+1) Final array of 32 elements sorted using Quick Sort
+a[0] = 0 a[1] = 0 a[2] = 3 a[3] = 3 a[4] = 10 a[5] = 30 a[6] = 33 a[7] = 34 a[8] = 38 a[9] = 38 a[10] = 41 a[11] = 44 a[12] = 49 a[13] = 51 a[14] = 56 a[15] = 56 a[16] = 63 a[17] = 67 a[18] = 68 a[19] = 54 a[20] = 70 a[21] = 70 a[22] = 72 a[23] = 75 a[24] = 76 a[25] = 78 a[26] = 84 a[27] = 84 a[28] = 97 a[29] = 98 a[30] = 99 
+Details - 
+Elapsed time was 0 miliseconds.
+No. of key comparisons = 30
+
+------------------------------------------------------END------------------------------------------------------
+
+---------------------------APPLYING MERGE SORT ON RANDOM ARRAY OF SIZE 32---------------------------
+1) Original array of 32 elements in random order
+a[0] = 35 a[1] = 80 a[2] = 47 a[3] = 10 a[4] = 94 a[5] = 36 a[6] = 89 a[7] = 93 a[8] = 7 a[9] = 68 a[10] = 43 a[11] = 17 a[12] = 12 a[13] = 92 a[14] = 12 a[15] = 65 a[16] = 35 a[17] = 61 a[18] = 77 a[19] = 26 a[20] = 27 a[21] = 8 a[22] = 82 a[23] = 41 a[24] = 34 a[25] = 11 a[26] = 35 a[27] = 40 a[28] = 20 a[29] = 66 a[30] = 99 
+1) Final array of 32 elements sorted using Merge Sort
+a[0] = 3 a[1] = 3 a[2] = 9 a[3] = 9 a[4] = 10 a[5] = 11 a[6] = 13 a[7] = 22 a[8] = 23 a[9] = 31 a[10] = 32 a[11] = 32 a[12] = 35 a[13] = 36 a[14] = 38 a[15] = 39 a[16] = 46 a[17] = 48 a[18] = 48 a[19] = 49 a[20] = 52 a[21] = 53 a[22] = 53 a[23] = 60 a[24] = 72 a[25] = 72 a[26] = 74 a[27] = 76 a[28] = 79 a[29] = 88 a[30] = 94 
+Details - 
+Elapsed time was 0 miliseconds.
+No. of key comparisons = 81
+
+------------------------------------------------------END------------------------------------------------------
+
+---------------------------APPLYING HEAP SORT ON RANDOM ARRAY OF SIZE 32---------------------------
+1) Original array of 32 elements in random order
+a[0] = 35 a[1] = 80 a[2] = 47 a[3] = 10 a[4] = 94 a[5] = 36 a[6] = 89 a[7] = 93 a[8] = 7 a[9] = 68 a[10] = 43 a[11] = 17 a[12] = 12 a[13] = 92 a[14] = 12 a[15] = 65 a[16] = 35 a[17] = 61 a[18] = 77 a[19] = 26 a[20] = 27 a[21] = 8 a[22] = 82 a[23] = 41 a[24] = 34 a[25] = 11 a[26] = 35 a[27] = 40 a[28] = 20 a[29] = 66 a[30] = 99 
+1) Final array of 32 elements sorted using Heap Sort
+a[0] = 7 a[1] = 8 a[2] = 10 a[3] = 11 a[4] = 12 a[5] = 12 a[6] = 17 a[7] = 20 a[8] = 26 a[9] = 27 a[10] = 34 a[11] = 35 a[12] = 35 a[13] = 35 a[14] = 36 a[15] = 40 a[16] = 41 a[17] = 43 a[18] = 47 a[19] = 61 a[20] = 65 a[21] = 66 a[22] = 68 a[23] = 77 a[24] = 80 a[25] = 82 a[26] = 89 a[27] = 92 a[28] = 93 a[29] = 94 a[30] = 99 
+Details - 
+Elapsed time was 0 miliseconds.
+No. of key comparisons = 213
+
+------------------------------------------------------END------------------------------------------------------
+
+---------------------------APPLYING QUICK SORT ON RANDOM ARRAY OF SIZE 32---------------------------
+1) Original array of 32 elements in random order
+a[0] = 7 a[1] = 8 a[2] = 10 a[3] = 11 a[4] = 12 a[5] = 12 a[6] = 17 a[7] = 20 a[8] = 26 a[9] = 27 a[10] = 34 a[11] = 35 a[12] = 35 a[13] = 35 a[14] = 36 a[15] = 40 a[16] = 41 a[17] = 43 a[18] = 47 a[19] = 61 a[20] = 65 a[21] = 66 a[22] = 68 a[23] = 77 a[24] = 80 a[25] = 82 a[26] = 89 a[27] = 92 a[28] = 93 a[29] = 94 a[30] = 99 
+1) Final array of 32 elements sorted using Quick Sort
+a[0] = 8 a[1] = 10 a[2] = 11 a[3] = 12 a[4] = 12 a[5] = 17 a[6] = 20 a[7] = 26 a[8] = 27 a[9] = 34 a[10] = 7 a[11] = 35 a[12] = 35 a[13] = 35 a[14] = 36 a[15] = 40 a[16] = 41 a[17] = 43 a[18] = 47 a[19] = 61 a[20] = 65 a[21] = 66 a[22] = 68 a[23] = 77 a[24] = 80 a[25] = 82 a[26] = 89 a[27] = 92 a[28] = 93 a[29] = 94 a[30] = 99 
+Details - 
+Elapsed time was 1 miliseconds.
+No. of key comparisons = 32
+
+------------------------------------------------------END------------------------------------------------------
+
+Merge Sort(1024) - 8956(No. of comparisons)|3 milliseconds(Time Consumed)
+Heap Sort(1024) - 26265(No. of comparisons)|5 milliseconds(Time Consumed)
+Quick Sort(1024) - 27899(No. of comparisons)|13 milliseconds(Time Consumed)
+Merge Sort(32767) - 476831(No. of comparisons)|16 milliseconds(Time Consumed)
+Heap Sort(32767) - 1353902(No. of comparisons)|11 milliseconds(Time Consumed)
+Quick Sort(1024) - 1418406(No. of comparisons)|35 milliseconds(Time Consumed)
+Merge Sort(1048575) - 21006948(No. of comparisons)|304 milliseconds(Time Consumed)
+Heap Sort(1048575) - 59439049(No. of comparisons)|215 milliseconds(Time Consumed)
+Quick Sort(1024) - 61534576(No. of comparisons)|1715 milliseconds(Time Consumed)
+BUILD SUCCESSFUL (total time: 2 seconds)
